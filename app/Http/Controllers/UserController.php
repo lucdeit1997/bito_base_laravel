@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Hash;
 
 class UserController extends Controller
 {
@@ -11,8 +12,7 @@ class UserController extends Controller
         $user = new User();
         $user->email    = $req->email;
         $user->username = $req->username;
-        $user->password = $req->password;
-        
+        $user->password = Hash::make($req->password);
         $user->save();
         if($user){
             $data = [
