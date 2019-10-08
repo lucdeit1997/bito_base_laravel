@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use Hash;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -111,5 +112,18 @@ class UserController extends Controller
             ];
         }
         return response()->json($data);
+    }
+
+    public function login(Request $req){
+        if (Auth::attempt(['username' => $req->username, 'password' => $req->password])) {
+            // email admin mới được xác thực thành công 
+            return response()->json([ 
+                'error'=>false, 
+             ]);
+        }else{
+            return response()->json([ 
+                'error'=>true, 
+             ]);
+        }
     }
 }

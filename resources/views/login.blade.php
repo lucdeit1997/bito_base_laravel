@@ -22,11 +22,11 @@ License: You must have a valid license purchased only from themeforest(the above
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
     <meta name="author" content="ThemeSelect">
     <title>User Login | Materialize - Material Design Admin Template</title>
-    <link rel="apple-touch-icon" href="../../../app-assets/images/favicon/apple-touch-icon-152x152.png">
-    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="{{ asset('template/app-assets/images/favicon/apple-touch-icon-152x152.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('template/app-assets/images/favicon/favicon-32x32.png') }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- BEGIN: VENDOR CSS-->
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('template/app-assets/vendors/vendors.min.css') }}">
     <!-- END: VENDOR CSS-->
     <!-- BEGIN: Page Level CSS-->
   <link rel="stylesheet" type="text/css" href="{{ asset('template/app-assets/css/themes/vertical-modern-menu-template/materialize.css') }}">
@@ -73,9 +73,9 @@ License: You must have a valid license purchased only from themeforest(the above
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <a href="index.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Login</a>
+      <div  class="row">
+        <div id="btnLogin" class="input-field col s12">
+          <a  class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Login</a>
         </div>
       </div>
       <div class="row">
@@ -99,10 +99,11 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN PAGE VENDOR JS-->
     <!-- END PAGE VENDOR JS-->
     <!-- BEGIN THEME  JS-->
-    <script src="{{  asset('app-assets/js/plugins.js') }}" type="text/javascript"></script>
-    <script src="{{  asset('app-assets/js/custom/custom-script.js') }}" type="text/javascript"></script>
+    <script src="{{  asset('template/app-assets/js/plugins.js') }}" type="text/javascript"></script>
+    <script src="{{  asset('template/app-assets/js/custom/custom-script.js') }}" type="text/javascript"></script>
     <!-- END THEME  JS-->
     <!-- BEGIN PAGE LEVEL JS-->
     <!-- END PAGE LEVEL JS-->
   </body>
 </html>
+@include('utils.login-script')

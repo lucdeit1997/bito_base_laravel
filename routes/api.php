@@ -26,3 +26,7 @@ Route::put('/users/{id}', 'UserController@update');
  * register
  */
 Route::post('/register','UserController@create');
+/**
+ * login
+ */
+Route::post('/login', 'UserController@login');

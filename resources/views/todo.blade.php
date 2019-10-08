@@ -13,7 +13,7 @@
                 <li class="hide-on-med-and-down"><a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
                 <li class="hide-on-large-only"><a class="waves-effect waves-block waves-light search-button" href="javascript:void(0);"><i class="material-icons">search</i></a></li>
                 <li><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="notifications-dropdown"><i class="material-icons">notifications_none<small class="notification-badge">5</small></i></a></li>
-                <li><a class="waves-effect waves-block waves-light profile-button" href="javascript:void(0);" data-target="profile-dropdown"><span class="avatar-status avatar-online"><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar"><i></i></span></a></li>
+                <li><a class="waves-effect waves-block waves-light profile-button" href="javascript:void(0);" data-target="profile-dropdown"><span class="avatar-status avatar-online"><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar"><i></i></span></a></li>
                 <li><a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="slide-out-right"><i class="material-icons">format_indent_increase</i></a></li>
               </ul>
               <!-- translation-button-->
@@ -75,7 +75,7 @@
       <!-- BEGIN: SideNav-->
       <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-light sidenav-active-square">
         <div class="brand-sidebar">
-          <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="index.html"><img src="../../../app-assets/images/logo/materialize-logo-color.png" alt="materialize logo"/><span class="logo-text hide-on-med-and-down">Materialize</span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
+          <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="index.html"><img src="../app-assets/images/logo/materialize-logo-color.png" alt="materialize logo"/><span class="logo-text hide-on-med-and-down">Materialize</span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
         </div>
         <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
           <li class="active bold"><a class="collapsible-header waves-effect waves-cyan " href="#"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="">Dashboard</span><span class="badge badge pill orange float-right mr-10">3</span></a>
@@ -463,19 +463,19 @@
               <p class="medium-small pt-2">Today</p>
               <ul class="collection mb-0">
                  <li class="collection-item avatar">
-                    <img src="../../../app-assets/images/avatar/avatar-7.png" alt="" class="circle" />
+                    <img src="../app-assets/images/avatar/avatar-7.png" alt="" class="circle" />
                     <p class="font-weight-600">John Doe</p>
                     <p class="medium-small">18, January 2019</p>
                     <a href="#!" class="secondary-content"><i class="material-icons">star_border</i></a>
                  </li>
                  <li class="collection-item avatar">
-                    <img src="../../../app-assets/images/avatar/avatar-3.png" alt="" class="circle" />
+                    <img src="../app-assets/images/avatar/avatar-3.png" alt="" class="circle" />
                     <p class="font-weight-600">Adam Garza</p>
                     <p class="medium-small">20, January 2019</p>
                     <a href="#!" class="secondary-content"><i class="material-icons">star_border</i></a>
                  </li>
                  <li class="collection-item avatar">
-                    <img src="../../../app-assets/images/avatar/avatar-5.png" alt="" class="circle" />
+                    <img src="../app-assets/images/avatar/avatar-5.png" alt="" class="circle" />
                     <p class="font-weight-600">Jennifer Rice</p>
                     <p class="medium-small">25, January 2019</p>
                     <a href="#!" class="secondary-content"><i class="material-icons">star_border</i></a>
@@ -618,7 +618,7 @@
                     <ul class="collection p-0">
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -629,7 +629,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-1.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-1.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -640,7 +640,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-off avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-2.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-2.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -651,7 +651,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-3.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-3.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -662,7 +662,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-4.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-4.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -673,7 +673,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-off avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-5.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-5.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -684,7 +684,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-6.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-6.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -695,7 +695,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-off avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -706,7 +706,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-off avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-8.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-8.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -717,7 +717,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-1.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-1.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -728,7 +728,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-9.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-9.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -739,7 +739,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-off avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-10.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-10.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -750,7 +750,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-off avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-11.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-11.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -761,7 +761,7 @@
                        </li>
                        <li class="collection-item sidenav-trigger display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                           <span class="avatar-status avatar-online avatar-50"
-                             ><img src="../../../app-assets/images/avatar/avatar-12.png" alt="avatar" />
+                             ><img src="../app-assets/images/avatar/avatar-12.png" alt="avatar" />
                              <i></i>
                           </span>
                           <div class="user-content">
@@ -989,7 +989,7 @@
            <ul class="collection">
               <li class="collection-item display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                  <span class="avatar-status avatar-online avatar-50"
-                    ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                    ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                  </span>
                  <div class="user-content speech-bubble">
                     <p class="medium-small">hello!</p>
@@ -1002,7 +1002,7 @@
               </li>
               <li class="collection-item display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                  <span class="avatar-status avatar-online avatar-50"
-                    ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                    ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                  </span>
                  <div class="user-content speech-bubble">
                     <p class="medium-small">I am looking for the best admin template.?</p>
@@ -1020,7 +1020,7 @@
 
               <li class="collection-item display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                  <span class="avatar-status avatar-online avatar-50"
-                    ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                    ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                  </span>
                  <div class="user-content speech-bubble">
                     <p class="medium-small">Ohh! very nice</p>
@@ -1033,7 +1033,7 @@
               </li>
               <li class="collection-item display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                  <span class="avatar-status avatar-online avatar-50"
-                    ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                    ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                  </span>
                  <div class="user-content speech-bubble">
                     <p class="medium-small">How can I purchase it?</p>
@@ -1056,7 +1056,7 @@
               </li>
               <li class="collection-item display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                  <span class="avatar-status avatar-online avatar-50"
-                    ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                    ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                  </span>
                  <div class="user-content speech-bubble">
                     <p class="medium-small">Ohh! Thank you.</p>
@@ -1064,7 +1064,7 @@
               </li>
               <li class="collection-item display-flex avatar pl-5 pb-0" data-target="slide-out-chat">
                  <span class="avatar-status avatar-online avatar-50"
-                    ><img src="../../../app-assets/images/avatar/avatar-7.png" alt="avatar" />
+                    ><img src="../app-assets/images/avatar/avatar-7.png" alt="avatar" />
                  </span>
                  <div class="user-content speech-bubble">
                     <p class="medium-small">I will purchase it for sure.</p>
@@ -1121,7 +1121,7 @@
                               </div>
                           </div>
                           <div class="carousel-item slide-1">
-                              <img src="../../../app-assets/images/gallery/intro-slide-1.png" alt="" class="responsive-img animated fadeInUp slide-1-img">
+                              <img src="../app-assets/images/gallery/intro-slide-1.png" alt="" class="responsive-img animated fadeInUp slide-1-img">
                               <h5 class="intro-step-title mt-7 center animated fadeInUp">Welcome to Materialize</h5>
                               <p class="intro-step-text mt-5 animated fadeInUp">Materialize is a Material Design Admin
                                   Template is the excellent responsive google material design inspired multipurpose admin
@@ -1129,7 +1129,7 @@
                                   Elements.</p>
                           </div>
                           <div class="carousel-item slide-2">
-                              <img src="../../../app-assets/images/gallery/intro-features.png" alt="" class="responsive-img slide-2-img">
+                              <img src="../app-assets/images/gallery/intro-features.png" alt="" class="responsive-img slide-2-img">
                               <h5 class="intro-step-title mt-7 center">Example Request Information</h5>
                               <p class="intro-step-text mt-5">Lorem ipsum dolor sit amet consectetur,
                                   adipisicing elit.
@@ -1156,7 +1156,7 @@
                               </div>
                           </div>
                           <div class="carousel-item slide-3">
-                              <img src="../../../app-assets/images/gallery/intro-app.png" alt="" class="responsive-img slide-1-img">
+                              <img src="../app-assets/images/gallery/intro-app.png" alt="" class="responsive-img slide-1-img">
                               <h5 class="intro-step-title mt-7 center">Showcase App Features</h5>
                               <div class="row">
                                   <div class="col m5 offset-m1 s12">

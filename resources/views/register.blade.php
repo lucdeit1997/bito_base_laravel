@@ -53,28 +53,28 @@ License: You must have a valid license purchased only from themeforest(the above
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">person_outline</i>
-          <input id="username" type="text">
+          <input id="txtUsername" type="text">
           <label for="username" class="center-align">Username</label>
         </div>
       </div>
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">mail_outline</i>
-          <input id="email" type="email">
+          <input id="txtEmail" type="email">
           <label for="email">Email</label>
         </div>
       </div>
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">lock_outline</i>
-          <input id="password" type="password">
+          <input id="txtPassword" type="password">
           <label for="password">Password</label>
         </div>
       </div>
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">lock_outline</i>
-          <input id="password-again" type="password">
+          <input id="txtPasswordAgain" type="password">
           <label for="password-again">Password again</label>
         </div>
       </div>
@@ -108,25 +108,4 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- END PAGE LEVEL JS-->
   </body>
 </html>
-<script>
-    $(document).ready(function(){
-        $("#register-btn").click(function(){
-            let username = $("#username").val();
-            let email = $("#email").val();
-            let password = $("#password").val();
-            $.ajax({
-                method: "POST",
-                url: "/api/register",
-                data: { 'username': username, 'email': email, 'password': password },
-                dataType : 'json',
-                success : function(resp){
-                    alert("success");
-                },
-                error:function (err) {
-                    console.log(err)
-                }
-            })
-        })
-    })
-
-</script>
+@include('utils.register-script')
