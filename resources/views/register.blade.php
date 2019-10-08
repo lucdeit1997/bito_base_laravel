@@ -80,7 +80,7 @@ License: You must have a valid license purchased only from themeforest(the above
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <a href="index.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Register</a>
+          <a id="register-btn"  class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Register</a>
         </div>
       </div>
       <div class="row">
@@ -108,3 +108,25 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- END PAGE LEVEL JS-->
   </body>
 </html>
+<script>
+    $(document).ready(function(){
+        $("#register-btn").click(function(){
+            let username = $("#username").val();
+            let email = $("#email").val();
+            let password = $("#password").val();
+            $.ajax({
+                method: "POST",
+                url: "/api/register",
+                data: { 'username': username, 'email': email, 'password': password },
+                dataType : 'json',
+                success : function(resp){
+                    alert("success");
+                },
+                error:function (err) {
+                    console.log(err)
+                }
+            })
+        })
+    })
+
+</script>

@@ -22,3 +22,7 @@ Route::get('/users/{id}', 'UserController@getUserById');
 Route::post('/users', 'UserController@create');
 Route::delete('/users/{id}', 'UserController@delete');
 Route::put('/users/{id}', 'UserController@update');
+/**
+ * register
+ */
+Route::post('/register','UserController@create');
